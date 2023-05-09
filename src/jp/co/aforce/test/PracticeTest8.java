@@ -17,7 +17,7 @@ public class PracticeTest8 {
 		case 1:
 			System.out.println("こんにちは");
 			break;
-		case 2:
+		default:
 			System.out.println("おはよう");
 		}
 	}
@@ -54,13 +54,16 @@ public class PracticeTest8 {
 			date = "明後日";
 		}
 		
-		int m = (int) (3 * Math.random());
+		int m = (int) (4 * Math.random());
 		String weather;
 		switch(m) {
 		case 0:
 			weather = "晴れ";
 			break;
 		case 1:
+			weather = "曇り";
+			break;
+		case 2:
 			weather = "雨";
 			break;
 		default:
